@@ -7,7 +7,9 @@
     "server": "cd backend && npm run dev",
     "client": "cd frontend && npm run dev",
     "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
-    "build": "cd frontend && npm run build",
+
+    "build": "echo \"No build needed for backend\"",
+
     "start": "node api/index.js"
   },
   "dependencies": {

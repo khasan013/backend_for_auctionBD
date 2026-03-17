@@ -14,5 +14,8 @@ app.get("/auctions", (req, res) => {
     { id: 3, title: "Phone", price: 500 }
   ]);
 });
+app.get("/debug", (req, res) => {
+  res.send("DEBUG WORKING");
+});
 
 export default app;
